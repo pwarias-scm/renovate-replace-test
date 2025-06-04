@@ -1,1 +1,1 @@
-example:0.0.1
+base_image: example:0.0.1
