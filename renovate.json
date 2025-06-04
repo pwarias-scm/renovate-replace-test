@@ -2,7 +2,7 @@
 "extends": [
         "config:recommended"
     ],
-"enabledManagers": ["regex"],
+"enabledManagers": ["regex", "npm"],
 "packageRules": [
     {
       "enabled": true,
