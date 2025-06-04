@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "example": "14.0.0",
+    "lodash": "14.0.0",
   }
 }
