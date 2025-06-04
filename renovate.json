@@ -21,10 +21,10 @@
       ]
     },
     {  
-      matchFiles: ["service/alpha"],
-      matchPackageNames: ["example"],
-      replacementName: "example-new-name",
-      replacementVersion: "1.0-new-tag"
+      "matchFiles": ["service/alpha"],
+      "matchPackageNames": ["example"],
+      "replacementName": "example-new-name",
+      "replacementVersion": "1.0-new-tag"
     }
   ],
   "customManagers": [
