@@ -20,9 +20,13 @@
           "- example4: https://github.com/"
       ]
     },
-    {  
-      "matchFiles": ["service/alpha"],
-      "matchPackageNames": ["example"],
+    {
+      "matchDatasources": [
+                "docker"
+            ],
+      "matchPackagePatterns": [
+                "^example.*"
+            ],
       "replacementName": "example-new-name",
       "replacementVersion": "1.0-new-tag"
     }
