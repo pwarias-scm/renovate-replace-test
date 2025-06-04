@@ -26,8 +26,7 @@
             ],
       "matchFiles": ["service/alpha1/package.json"],
       "matchPackageNames": ["lodash"],
-      "replacementName": "lodash-new-name",
-      "replacementVersion": "4.7"
+      "replacementName": "moment",
     }
   ],
   "customManagers": [
