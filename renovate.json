@@ -22,11 +22,10 @@
     },
     {
       "matchDatasources": [
-                "docker"
+                "npm"
             ],
-      "matchPackagePatterns": [
-                "^example.*"
-            ],
+      "matchFiles": ["service/alpha1/package.json"],
+      "matchPackageNames": ["example"],
       "replacementName": "example-new-name",
       "replacementVersion": "1.0-new-tag"
     }
