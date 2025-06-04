@@ -7,7 +7,7 @@
     {
       "enabled": true,
       "matchManagers": ["regex"],
-      "matchPackagePrefixes": ["commander"],
+      "matchPackagePrefixes": ["lodash"],
       "automerge": true,
       "labels": ["renovate", "Review-Bypass"],
       "prBodyNotes": [
