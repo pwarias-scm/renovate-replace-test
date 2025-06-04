@@ -19,6 +19,12 @@
           "- example3: https://github.com/",
           "- example4: https://github.com/"
       ]
+    },
+    {  
+      matchFiles: ["service/alpha"],
+      matchPackageNames: ["example"],
+      replacementName: "example-new-name",
+      replacementVersion: "1.0-new-tag"
     }
   ],
   "customManagers": [
