@@ -32,7 +32,7 @@
       "customType": "regex",
       "fileMatch": ["/service/alpha1/package.json"],
       "matchStrings": [
-        "\"lodash\":\\s*\"(?<currentValue>[^\"]+)\""
+        "\"(?<depName>[^\"]+)\":\\s*\"(?<currentValue>[^\"]+)\""
       ],
       "datasourceTemplate": "npm"
     }
