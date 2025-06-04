@@ -35,7 +35,7 @@
       "customType": "regex",
       "fileMatch": ["/service/alpha1/package.json"],
       "matchStrings": [
-        "\"(?<depName>)\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+        "\"(?<depName>[^\"]+)\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
       ],
       "datasourceTemplate": "npm"
     }
