@@ -33,9 +33,9 @@
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["package.json"],
+      "fileMatch": ["/service/alpha1/package.json"],
       "matchStrings": [
-        "\"(?<depName>commander)\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
+        "\"(?<depName>)\":\\s*\"(?<currentValue>\\d+\\.\\d+\\.\\d+)\""
       ],
       "datasourceTemplate": "npm"
     }
